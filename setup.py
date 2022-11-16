@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="myadd_demo_622",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
-    version="2.0.0",  # 程序版本
+    name="myadd-demo-622",  # 项目名称，不要使用下划线
+    version="2.0.2",  # 程序版本
     author="XDD",  # 项目作者
     author_email="xdd2026@qq.com",  # 作者邮件
     description="我的测试案例",  # 项目的一句话描述
