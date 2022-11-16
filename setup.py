@@ -1,12 +1,11 @@
-from distutils.core import setup
-from setuptools import find_packages
+import setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="myadd_demo_622",  # 项目名称，保证它的唯一性，不要跟已存在的包名冲突即可
-    version="1.0.1",  # 程序版本
+    version="2.0.0",  # 程序版本
     author="XDD",  # 项目作者
     author_email="xdd2026@qq.com",  # 作者邮件
     description="我的测试案例",  # 项目的一句话描述

@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: myadd-demo-622
-Version: 1.0.1
+Version: 2.0.0
 Summary: 我的测试案例
 Home-page: https://github.com/xdd1997/pypi_demo_xdd.git
 Author: XDD
@@ -11,8 +11,15 @@ Classifier: Operating System :: OS Independent
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# -*- coding: utf-8 -*-
-# @File   : README.md.py
-# @Author : xdd2026@qq.com
-# @Data   : 2022/11/16 19:39 
-# @Purpose:
+## install
+
+```
+pip install myadd-demo-622
+```
+
+## use
+
+```
+import pypi_demo_xdd
+```
+
